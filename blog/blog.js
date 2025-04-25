@@ -26,7 +26,7 @@ async function fetchLatestPosts() {
                 <div class="blog-content">
                     <h3>${post.title}</h3>
                     <p>${summary}</p>
-                    <button onclick="window.location.href='post.html?id=${post.id}'">Read More</button>
+                    <button class="read-more" onclick="window.location.href='post.html?id=${post.id}'">Read More</button>
                 </div>
             `;
 
@@ -38,3 +38,18 @@ async function fetchLatestPosts() {
 }
 
 fetchLatestPosts();
+
+// Inject .read-more button styles
+const style = document.createElement('style');
+style.textContent = `
+    .read-more {
+        color: red;
+        background: none;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        font: inherit;
+        padding: 0;
+    }
+`;
+document.head.appendChild(style);

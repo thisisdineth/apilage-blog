@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sample data for founders
     const founders = [
       {
-        name: 'Jane Doe',
-        role: 'CEO & Educator',
-        image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        bio: 'Mathematics enthusiast with 10+ years of teaching experience in advanced calculus.',
+        name: 'Dineth Gunawardena',
+        role: 'CEO & Owner',
+        image: 'https://apilageai.lk/uploads/ApilageAI_t_1743780040_t_tk_179f92edb9a2d0597464506b9909a95c.jpg',
+        bio: 'Front End designer and AI enthusiastic Maths and ICT Student at Mahanama College',
         social: {
           twitter: '#',
           linkedin: '#',
@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        name: 'John Smith',
-        role: 'CTO & Developer',
-        image: 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        bio: 'Computer Science expert specializing in educational technology and interactive learning platforms.',
+        name: 'Thisath Damiru',
+        role: 'Co-Founder & Software Engineer',
+        image: 'https://apilageai.lk/uploads/ApilageAI_t_1743705732_t_tk_a46ef49b890d3cdaf398d659b74148c1.jpg',
+        bio: 'Expert In Backend programming and AI , Student',
         social: {
           twitter: '#',
           linkedin: '#',
@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       {
-        name: 'Sarah Johnson',
-        role: 'Content Director',
-        image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        bio: 'Former high school science teacher now creating engaging educational content for all ages.',
+        name: 'Daham Pansilu',
+        role: 'Marketing & Community Manager',
+        image: 'https://apilageai.lk/uploads/ApilageAI_t_1744047973_t_tk_780d2b2487027d413cccb15fa4a02a10.jpg',
+        bio: 'Graphic Designer and marketing expert, Student',
         social: {
           twitter: '#',
           linkedin: '#',

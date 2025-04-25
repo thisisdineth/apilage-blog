@@ -38,34 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     ];
   
-    // Sample data for blog posts
-    const blogPosts = [
-      {
-        title: 'Understanding Calculus: A Beginner\'s Guide',
-        excerpt: 'Learn the fundamentals of calculus with our easy-to-follow guide for beginners.',
-        image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        date: 'April 15, 2025',
-        author: 'Jane Doe',
-        tags: ['Mathematics', 'Calculus', 'Beginners']
-      },
-      {
-        title: 'The Science Behind Chemical Reactions',
-        excerpt: 'Explore the fascinating world of chemical reactions and understand the processes that drive them.',
-        image: 'https://images.unsplash.com/photo-1628595351029-c2bf17511435?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        date: 'April 10, 2025',
-        author: 'Sarah Johnson',
-        tags: ['Science', 'Chemistry', 'Education']
-      },
-      {
-        title: 'Coding for Students: Why It Matters',
-        excerpt: 'Discover why learning to code is essential for students in today\'s digital world.',
-        image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        date: 'April 5, 2025',
-        author: 'John Smith',
-        tags: ['Technology', 'Coding', 'Education']
-      }
-    ];
-  
     // Render founders section
     const foundersGrid = document.querySelector('.founders-grid');
     if (foundersGrid) {
